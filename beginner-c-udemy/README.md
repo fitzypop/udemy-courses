@@ -1,8 +1,8 @@
 # C Programming for Beginners - Master the C Language
 
-Instuctor: [Tim Buchalka](1).
+Instuctor: [Tim Buchalka][1].
 
-Udemy Course can be found [here](2).
+Udemy Course can be found [here][2].
 
 ## Sections
 
@@ -24,5 +24,5 @@ Udemy Course can be found [here](2).
 - [ ] Conclusion
 - [ ] Extra - Source Code and Other Stuff
 
-[1]: (https://www.udemy.com/user/learn-programming-academy/)
-[2]: (https://www.udemy.com/course/c-programming-for-beginners-/)
+[1]: https://www.udemy.com/user/learn-programming-academy/
+[2]: https://www.udemy.com/course/c-programming-for-beginners-/

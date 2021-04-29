@@ -1,8 +1,8 @@
 # Python for Data Science and Machine Learning Bootcamp
 
-Instructor: [](1).
+Instructor: [Jose Portilla][1].
 
-Udemy Couse can be found [here](1).
+Udemy Couse can be found [here][1].
 
 ## Sections
 
@@ -34,5 +34,5 @@ Udemy Couse can be found [here](1).
 - [ ] Neural Nets and Deep Learning
 - [ ] Big Data and Spark with Python
 
-[1]: (https://www.udemy.com/user/joseportilla/)
-[2]: (https://www.udemy.com/course/python-for-data-science-and-machine-learning-bootcamp/)
+[1]: https://www.udemy.com/user/joseportilla/
+[2]: https://www.udemy.com/course/python-for-data-science-and-machine-learning-bootcamp/
