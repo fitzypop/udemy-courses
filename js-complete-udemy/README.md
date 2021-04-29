@@ -1,8 +1,8 @@
 # JavaScript, The Complete Guide 2021 Udemy Course
 
-Instructor: [Maximilian Schwarzmüller](1).
+Instructor: [Maximilian Schwarzmüller][1].
 
-Udemy Course can be found [here](2).
+Udemy Course can be found [here][2].
 
 ## Sections
 
