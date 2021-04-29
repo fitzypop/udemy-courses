@@ -9,7 +9,7 @@ A monorepo for all things Udemy;
 - [ ] [C Programming for Beginners](5)
 - [ ] [Advanced C Programming](6)
 
-[1]: (https://www.udemy.com/course/modern-html-css-from-the-beginning/)
+[1]: (./html-css-udemy/README.md)
 [2]: (https://www.udemy.com/course/javascript-the-complete-guide-2020-beginner-advanced/)
 [3]: (https://www.udemy.com/course/react-the-complete-guide-incl-redux/)
 [4]: (https://www.udemy.com/course/python-for-data-science-and-machine-learning-bootcamp/)
