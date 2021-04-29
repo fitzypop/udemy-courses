@@ -2,8 +2,6 @@
 
 A monorepo for all things Udemy
 
-derpy derp derp
-
 - [x] [HTML + CSS Course](html-css-udemy/README.md)
 - [ ] [JavaScript - The Complete Guide 2021](js-complete-udemy/README.md)
 - [ ] [React - The Complete Guide](react-udemy/README.md)
