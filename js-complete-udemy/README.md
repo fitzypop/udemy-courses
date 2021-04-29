@@ -43,5 +43,5 @@ Udemy Course can be found [here](2).
 - [ ] Web Components
 - [ ] Roundup & Next Steps
 
-[1]: (https://www.udemy.com/user/maximilian-schwarzmuller/)
-[2]: (https://www.udemy.com/course/javascript-the-complete-guide-2020-beginner-advanced/)
+[1]: https://www.udemy.com/user/maximilian-schwarzmuller/
+[2]: https://www.udemy.com/course/javascript-the-complete-guide-2020-beginner-advanced/
