@@ -11,14 +11,14 @@ click for [Udemy course here.](1)
 - [x] Intro to Responsive Layouts
 - [x] Intro to Flexbox
 - [x] EdgeLedger Website (Flexbox)
-- [x] Website Deployment - Shared Hozt
-- [x] More CSS Concepts - Advance Selectors, Animatio & More
+- [x] Website Deployment - Shared Host
+- [x] More CSS Concepts - Advance Selectors, Animations & More
 - [x] Mini Projects with Keyframes, Transitions, etc.
 - [x] CSS Grid
 - [x] NewsGrid Website
 - [x] Website Deployment with Netlify
 - [x] Learning Sass
 - [x] Portfolio Website with Sass
-- [x] Where to Go From HEre
+- [x] Where to Go From Here
 
 [1]: (https://www.udemy.com/course/modern-html-css-from-the-beginning/)
