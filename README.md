@@ -1,6 +1,8 @@
 # Udemy Courses Repo
 
-A monorepo for all things Udemy;
+A monorepo for all things Udemy
+
+derpy derp derp
 
 - [x] [HTML + CSS Course](html-css-udemy/README.md)
 - [ ] [JavaScript - The Complete Guide 2021](js-complete-udemy/README.md)
