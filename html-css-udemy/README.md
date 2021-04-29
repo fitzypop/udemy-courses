@@ -1,6 +1,8 @@
 # HTML and CSS Udemy Repo
 
-click for [Udemy course here.](1)
+Instructor: Brad Traversy.
+
+Udemy Course can be found [here](1).
 
 ## Sections
 
