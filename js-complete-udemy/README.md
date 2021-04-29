@@ -5,8 +5,8 @@ JavaScript, The Complete Guide 2021 Udemy Course
 ## Sections
 
 - [x] Introduction
-- [ ] Basics: Variables, Data Types, Operators & Functions
-- [ ] Efficient Development & Debugging
+- [x] Basics: Variables, Data Types, Operators & Functions
+- [x] Efficient Development & Debugging
 - [ ] Working with Control Structures
 - [ ] Behind the Scenes & The Weird Past (ES3, ES5) & Present (ES6) of JavaScript
 - [ ] More on Functions
