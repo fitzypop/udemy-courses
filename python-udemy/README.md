@@ -2,7 +2,7 @@
 
 Instructor: [Jose Portilla][1].
 
-Udemy Couse can be found [here][1].
+Udemy Couse can be found [here][2].
 
 ## Sections
 
