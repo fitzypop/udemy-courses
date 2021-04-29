@@ -1,4 +1,4 @@
-# HTML and CSS Udemy Repo
+# Modern HTML & CSS From the Beginning (Including Sass)
 
 Instructor: [Brad Traversy](1).
 
