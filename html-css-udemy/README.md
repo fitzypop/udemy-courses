@@ -1,8 +1,8 @@
 # HTML and CSS Udemy Repo
 
-Instructor: Brad Traversy.
+Instructor: [Brad Traversy](1).
 
-Udemy Course can be found [here](1).
+Udemy Course can be found [here](2).
 
 ## Sections
 
@@ -23,4 +23,5 @@ Udemy Course can be found [here](1).
 - [x] Portfolio Website with Sass
 - [x] Where to Go From Here
 
-[1]: (https://www.udemy.com/course/modern-html-css-from-the-beginning/)
+[1]: (https://www.udemy.com/user/brad-traversy/)
+[2]: (https://www.udemy.com/course/modern-html-css-from-the-beginning/)

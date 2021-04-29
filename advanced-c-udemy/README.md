@@ -1,8 +1,8 @@
 # Advanced C Programming Course
 
-Instructor: Tim Buchalka.
+Instructor: [Tim Buchalka](1).
 
-Udemy Couse can be found [here](1).
+Udemy Couse can be found [here](2).
 
 ## Section
 
@@ -31,4 +31,5 @@ Udemy Couse can be found [here](1).
 - [ ] Conclusion
 - [ ] Extra - Source Code and Other Stuff
 
-[1]: (https://www.udemy.com/course/advanced-c-programming-course/)
+[1]: (https://www.udemy.com/user/learn-programming-academy/)
+[2]: (https://www.udemy.com/course/advanced-c-programming-course/)

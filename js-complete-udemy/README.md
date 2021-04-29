@@ -1,6 +1,8 @@
-# js-complete-udemy
+# JavaScript, The Complete Guide 2021 Udemy Course
 
-JavaScript, The Complete Guide 2021 Udemy Course
+Instructor: [Maximilian Schwarzmüller](1).
+
+Udemy Course can be found [here](2).
 
 ## Sections
 
@@ -40,3 +42,6 @@ JavaScript, The Complete Guide 2021 Udemy Course
 - [ ] TypeScript Introduction
 - [ ] Web Components
 - [ ] Roundup & Next Steps
+
+[1]: (https://www.udemy.com/user/maximilian-schwarzmuller/)
+[2]: (https://www.udemy.com/course/javascript-the-complete-guide-2020-beginner-advanced/)
