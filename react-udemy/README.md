@@ -1,8 +1,8 @@
 # React - The Complete Guide (incl Hooks, React Router, Redux)
 
-Instructor: [Maximilian Schwarzmüller](1).
+Instructor: [Maximilian Schwarzmüller][1].
 
-Udemy Course can be found [here](2).
+Udemy Course can be found [here][2].
 
 ## Sections
 
@@ -33,5 +33,5 @@ Udemy Course can be found [here](2).
 
 <!-- TODO: add legacy sections later -->
 
-[1]: (https://www.udemy.com/user/maximilian-schwarzmuller/)
-[2]: (https://www.udemy.com/course/react-the-complete-guide-incl-redux/)
+[1]: https://www.udemy.com/user/maximilian-schwarzmuller/
+[2]: https://www.udemy.com/course/react-the-complete-guide-incl-redux/
