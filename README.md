@@ -9,7 +9,7 @@ A monorepo for all things Udemy
 - [ ] [C Programming for Beginners][5]
 - [ ] [Advanced C Programming][6]
 
-[1]: html-css-udemy/README.md
+[1]: html-css-udemy/.
 [2]: js-complete-udemy/README.md
 [3]: react-udemy/README.md
 [4]: python-udemy/README.md
