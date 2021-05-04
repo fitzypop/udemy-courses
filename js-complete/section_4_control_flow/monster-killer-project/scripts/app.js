@@ -2,6 +2,7 @@ const ATTACK_VALUE = 10;
 const STRONG_ATTACK_VALUE = ATTACK_VALUE * 1.5;
 const MONSTER_ATTACK_VALUE = 14;
 const HEAL_VALUE = 20;
+const DEFAULT_LIFE = 100;
 const battleLog = [];
 
 const EVENTS = {
@@ -12,10 +13,40 @@ const EVENTS = {
   GAME_OVER: "GAME_OVER",
 };
 
-let chosenMaxLife = 100;
+let chosenMaxLife;
+try {
+  chosenMaxLife = getMaxLifeValues();
+} catch (error) {
+  console.log(error);
+  alert(`Invalid Input. Defaulting to ${DEFAULT_LIFE}`);
+} finally {
+  chosenMaxLife = chosenMaxLife || DEFAULT_LIFE;
+  console.log(`Player and Monster Health: ${chosenMaxLife}`);
+}
 let currentMonsterHealth = chosenMaxLife;
 let currentPlayerHealth = chosenMaxLife;
 let hasBonusLife = true;
+
+// Add Click Handlers to Buttons
+attackBtn.onclick = () =>
+  attackMonsterHandler(ATTACK_VALUE, EVENTS.PLAYER_ATTACK);
+strongAttackBtn.onclick = () =>
+  attackMonsterHandler(STRONG_ATTACK_VALUE, EVENTS.PLAYER_STRONG_ATTACK);
+healBtn.onclick = () => healPlayerHandler();
+logBtn.onclick = () => printLogHandler();
+
+adjustHealthBars(chosenMaxLife);
+resetControls();
+
+function getMaxLifeValues() {
+  const parsedValue = parseInt(
+    prompt("Please enter max life for you and the Monster", "100")
+  );
+  if (isNaN(parsedValue) || parsedValue <= 0) {
+    throw new Error("Invalid user input, not a number");
+  }
+  return parsedValue;
+}
 
 function resetControls() {
   if (currentPlayerHealth === chosenMaxLife) {
@@ -106,29 +137,8 @@ function healPlayerHandler() {
 }
 
 function printLogHandler() {
-  console.log(battleLog);
+  // battleLog.forEach((entry) => console.log(entry));
+  for (const elem of battleLog) {
+    console.log(elem);
+  }
 }
-
-// Add Click Handlers to Buttons
-attackBtn.onclick = () =>
-  attackMonsterHandler(ATTACK_VALUE, EVENTS.PLAYER_ATTACK);
-strongAttackBtn.onclick = () =>
-  attackMonsterHandler(STRONG_ATTACK_VALUE, EVENTS.PLAYER_STRONG_ATTACK);
-healBtn.onclick = () => healPlayerHandler();
-logBtn.onclick = () => printLogHandler();
-
-// Start Game
-const enteredValue = prompt(
-  "Please enter max life for you and the Monster",
-  "100"
-);
-
-chosenMaxLife = parseInt(enteredValue);
-
-if (isNaN(chosenMaxLife) || chosenMaxLife <= 0) {
-  chosenMaxLife = 100;
-  alert("Invalid input, defaulting to 100");
-}
-
-adjustHealthBars(chosenMaxLife);
-resetControls();
