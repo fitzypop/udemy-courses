@@ -9,8 +9,8 @@ Udemy Course can be found [here][2].
 - [x] Introduction
 - [x] Basics: Variables, Data Types, Operators & Functions
 - [x] Efficient Development & Debugging
-- [ ] Working with Control Structures
-- [ ] Behind the Scenes & The Weird Past (ES3, ES5) & Present (ES6) of JavaScript
+- [x] Working with Control Structures
+- [x] Behind the Scenes & The Weird Past (ES3, ES5) & Present (ES6) of JavaScript
 - [ ] More on Functions
 - [ ] Working with the DOM in JavaScript
 - [ ] More on Arrays & Iterables
