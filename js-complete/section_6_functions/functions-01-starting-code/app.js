@@ -25,16 +25,18 @@ const RESULTS = {
 };
 
 const getPlayerChoice = () => {
-  let selection = prompt(
+  let pInput = prompt(
     `${CHOICES.ROCK}, ${CHOICES.PAPER}, or ${CHOICES.SCISSORS}?: `,
     ""
   ).toUpperCase();
 
-  if (!Object.values(CHOICES).includes(selection)) {
-    alert(`Your input is not a valid selection. Defaulting to ${CHOICES.ROCK}`);
-    selection = CHOICES.ROCK;
+  if (!Object.values(CHOICES).includes(pInput)) {
+    console.log(
+      `Your input is not a valid selection. Defaulting to ${CHOICES.ROCK}`
+    );
+    pInput = CHOICES.ROCK;
   }
-  return selection;
+  return pInput;
 };
 
 const getComputerChoice = () => {
@@ -48,24 +50,23 @@ const getComputerChoice = () => {
   }
 };
 
-const getWinner = (pChoice, cChoice) => {
-  // draw scenario
-  if (pChoice === cChoice) {
-    return RESULTS.DRAW;
-  } else if (
-    // Player wins Scenario
-    (pChoice === CHOICES.ROCK && cChoice === CHOICES.SCISSORS) ||
-    (pChoice === CHOICES.PAPER && cChoice === CHOICES.ROCK) ||
-    (pChoice === CHOICES.SCISSORS && cChoice === CHOICES.PAPER)
-  ) {
-    return RESULTS.PLAYER_WINS;
-  } else {
-    return RESULTS.COMPUTER_WINS;
-  }
-};
+const getWinner = (pChoice, cChoice) =>
+  pChoice === cChoice // Draw scenario
+    ? RESULTS.DRAW
+    : (pChoice === CHOICES.ROCK && cChoice === CHOICES.SCISSORS) ||
+      (pChoice === CHOICES.PAPER && cChoice === CHOICES.ROCK) ||
+      (pChoice === CHOICES.SCISSORS && cChoice === CHOICES.PAPER)
+    ? // Player Wins Scenario
+      RESULTS.PLAYER_WINS
+    : // Computer Wins Scenario
+      RESULTS.COMPUTER_WINS;
 
 document.getElementById("start-game-btn").onclick = () => {
-  console.log("Game is starting...");
-  const playerSelection = getPlayerChoice();
+  console.log("\nGame is starting...");
+  const playerChoice = getPlayerChoice();
+  console.log(`Player Chose: ${playerChoice}`);
   const computerChoice = getComputerChoice();
+  console.log(`Computer Chose: ${computerChoice}`);
+  const gameResult = getWinner(playerChoice, computerChoice);
+  console.log(`Result: ${gameResult}`);
 };
