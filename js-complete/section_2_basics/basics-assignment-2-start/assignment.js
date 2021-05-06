@@ -1,7 +1,7 @@
-const task3Element = document.getElementById("task-3");
+const task3Element = document.getElementById('task-3');
 
 function say_hi() {
-  alert("Hello, World!");
+  alert('Hello, World!');
 }
 
 function say_name(name) {
@@ -9,12 +9,12 @@ function say_name(name) {
 }
 
 say_hi();
-say_name("Mark");
+say_name('Mark');
 
-task3Element.addEventListener("click", say_fuck);
+task3Element.addEventListener('click', say_fuck);
 
 function something_stupid(name1, name2, name3) {
   return `${name1} ${name2} ${name3}`;
 }
 
-alert(something_stupid("Hello", "JavaScript", "World"));
+alert(something_stupid('Hello', 'JavaScript', 'World'));

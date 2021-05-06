@@ -17,11 +17,11 @@
 // })();
 
 // strict mode disables some of the 'nonsense' js features
-"use strict";
+'use strict';
 
 // var will 'hoist' userName to the top of the scope, and initialize to 'undefined'
 // // var userName;
 // let or const variables will throw an error
 console.log(userName);
 
-let userName = "langnostic";
+let userName = 'langnostic';

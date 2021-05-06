@@ -4,27 +4,27 @@ let logEntries = [];
 
 const Operations = {
   Add: {
-    Name: "ADD",
-    Operator: "+",
+    Name: 'ADD',
+    Operator: '+',
   },
   Subtract: {
-    Name: "SUBTRACT",
-    Operator: "-",
+    Name: 'SUBTRACT',
+    Operator: '-',
   },
   Multiple: {
-    Name: "MULTIPLY",
-    Operator: "*",
+    Name: 'MULTIPLY',
+    Operator: '*',
   },
   Divide: {
-    Name: "DIVIDE",
-    Operator: "/",
+    Name: 'DIVIDE',
+    Operator: '/',
   },
 };
 
 // Get input/output elements
-const userInput = document.getElementById("input-number");
-const currentResultOutput = document.getElementById("current-result");
-const currentCalculationOutput = document.getElementById("current-calculation");
+const userInput = document.getElementById('input-number');
+const currentResultOutput = document.getElementById('current-result');
+const currentCalculationOutput = document.getElementById('current-calculation');
 
 // Generates and writes calculation log
 function logAndWriteOutput(operation, initalResult, inputNum) {
@@ -79,13 +79,10 @@ function calculate(operation) {
 }
 
 // Add onclick events to buttons
-document.getElementById("btn-add").onclick = () => calculate(Operations.Add);
+document.getElementById('btn-add').onclick = () => calculate(Operations.Add);
 
-document.getElementById("btn-subtract").onclick = () =>
-  calculate(Operations.Subtract);
+document.getElementById('btn-subtract').onclick = () => calculate(Operations.Subtract);
 
-document.getElementById("btn-multiply").onclick = () =>
-  calculate(Operations.Multiple);
+document.getElementById('btn-multiply').onclick = () => calculate(Operations.Multiple);
 
-document.getElementById("btn-divide").onclick = () =>
-  calculate(Operations.Divide);
+document.getElementById('btn-divide').onclick = () => calculate(Operations.Divide);
