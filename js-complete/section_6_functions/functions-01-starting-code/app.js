@@ -81,7 +81,7 @@ document.getElementById('start-game-btn').onclick = () => {
   gameIsRunning = false;
 };
 
-const sumUp = (...numbers) => numbers.reduce((accum, curr) => accum + curr);
+const sumUp = (...numbers) => numbers.reduce((sum, num) => sum + (isNaN(num) ? 0 : num));
 const subtractUp = (...numbers) => numbers.reduce((accum, curr) => accum - curr);
 
 console.log(sumUp(1, 2, 3, 4));
