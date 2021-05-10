@@ -10,9 +10,11 @@ lastLi.textContent = lastLi.textContent + ' (Changed!)';
 // const body = document.body;
 // console.dir('body.children', body.children);
 
-// // gets a static (not-live) NodeList of elements
+// gets a static NodeList of elements.
+// (list does not grow or shrink, but elements still reference the dom)
 // // const allLis = document.querySelectorAll('li');
-// // get a live NodeList (i.e. can change with DOM Changes)
+// get a live HTMLCollection, can grow or shrink with DOM objects
+// (list items are also refences)
 // const allLis = document.getElementsByTagName('li');
 // for (const liElem of allLis) {
 //   console.dir(liElem);
