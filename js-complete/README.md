@@ -12,7 +12,7 @@ Udemy Course can be found [here][2].
 - [x] Working with Control Structures
 - [x] Behind the Scenes & The Weird Past (ES3, ES5) & Present (ES6) of JavaScript
 - [x] More on Functions
-- [ ] Working with the DOM in JavaScript
+- [x] Working with the DOM in JavaScript
 - [ ] More on Arrays & Iterables
 - [ ] More on Objects
 - [ ] Classes & Object-Oriented Programming
