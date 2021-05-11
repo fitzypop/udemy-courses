@@ -13,7 +13,7 @@ Udemy Course can be found [here][2].
 - [x] Behind the Scenes & The Weird Past (ES3, ES5) & Present (ES6) of JavaScript
 - [x] More on Functions
 - [x] Working with the DOM in JavaScript
-- [ ] More on Arrays & Iterables
+- [x] More on Arrays & Iterables
 - [ ] More on Objects
 - [ ] Classes & Object-Oriented Programming
 - [ ] Deep Dive: Constructor Functions & Prototypes
