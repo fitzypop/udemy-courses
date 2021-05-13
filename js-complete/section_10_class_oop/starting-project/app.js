@@ -1,6 +1,6 @@
 class Product {
   /**
-   *
+   * Data class for Products in our Shop App.
    * @param {string} title
    * @param {string} image
    * @param {string} desc
@@ -24,8 +24,8 @@ class ElementAttribute {
 class Component {
   /**
    *
-   * @param {string} renderHookId
-   * @param {{}} [props]
+   * @param {string} renderHookId - The Id of the HTMLElement you want to insert components into.
+   * @param {{}} [props] - Key Value Pairs will be extracted and added to this class, for use in render method.
    */
   constructor(renderHookId, props) {
     this.hookId = renderHookId;
@@ -195,46 +195,3 @@ class App {
 }
 
 App.init();
-
-// const productList = {
-//   products: [
-//     new Product('A Pillow', 'pillow.jpg', 'A Soft Pillow', 19.99),
-//     // {
-//     //   title: 'A Pillow',
-//     //   imageUrl: 'something something.jpg',
-//     //   price: 19.99,
-//     //   description: 'A Soft Pillow',
-//     // },
-//     new Product('A Carpet', 'carpet.jpg', 'A carpet you might life', 89.99),
-//     // {
-//     //   title: 'A Carpet',
-//     //   imageUrl: 'something else.jpg',
-//     //   price: 89.99,
-//     //   description: 'A carpet which you might like',
-//     // },
-//   ],
-//   // render() {
-//   //   const renderHook = document.getElementById('app');
-//   //   const prodList = document.createElement('ul');
-//   //   prodList.className = 'product-list';
-//   //   this.products.forEach((prod) => {
-//   //     const prodElem = document.createElement('li');
-//   //     prodElem.className = 'product-item';
-//   //     prodElem.innerHTML = `
-//   //       <div>
-//   //         <img src="${prod.imageUrl}" alt="${prod.title}" >
-//   //         <div class="product-ite1m__content">
-//   //           <h2>${prod.title}</h2>
-//   //           <h3>\$${prod.price}</h3>
-//   //           <p>${prod.description}</p>
-//   //           <button>Add to Cart</button>
-//   //         </div>
-//   //       </div>
-//   //     `;
-//   //     prodList.append(prodElem);
-//   //   });
-//   //   renderHook.append(prodList);
-//   // },
-// };
-
-// productList.render();
