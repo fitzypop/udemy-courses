@@ -5,6 +5,7 @@ const movieList = document.getElementById('movie-list');
 const movies = [];
 
 const renderMovies = (filter = '') => {
+  const excludeProps = ['title', '_title'];
   movies.length
     ? movieList.classList.add('visible')
     : movieList.classList.remove('visible');
@@ -29,10 +30,10 @@ const renderMovies = (filter = '') => {
     // let text = getFormattedTitle.call(movie);
     let text = getFormattedTitle.apply(movie);
 
-    const extraKey = Object.keys(info).filter(
-      (item) => item !== 'title' && item !== '_title'
+    const [extraKey, extraValue] = Object.entries(info).filter(
+      ([key, _]) => !excludeProps.includes(key)
     )[0];
-    text += ` - ${extraKey}: ${info[extraKey]}`;
+    text += ` - ${extraKey}: ${extraValue}`;
     // movieElem.textContent = `${movie.getFormattedTitle()} - ${extraKey}: ${
     //   info[extraKey]
     // }`;
