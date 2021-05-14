@@ -16,7 +16,7 @@ Udemy Course can be found [here][2].
 - [x] 8. More on Arrays & Iterables
 - [x] 9. More on Objects
 - [x] 10. Classes & Object-Oriented Programming
-- [ ] 11. Deep Dive: Constructor Functions & Prototypes
+- [x] 11. Deep Dive: Constructor Functions & Prototypes
 - [ ] 12. Practice: OOP & Classes
 - [ ] 13. Back to the DOM & More Browser APIs
 - [ ] 14. Working with Events
