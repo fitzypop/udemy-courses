@@ -38,8 +38,8 @@ class Component {
 }
 
 class Tooltip extends Component {
-  constructor(closeNotifierFunction, text) {
-    super();
+  constructor(closeNotifierFunction, text, hostElementId) {
+    super(hostElementId);
     this.closeNotifier = closeNotifierFunction;
     this.text = text;
     this.create();
@@ -53,7 +53,13 @@ class Tooltip extends Component {
   create() {
     const tooltipElement = document.createElement('div');
     tooltipElement.className = 'card';
-    tooltipElement.textContent = this.text;
+    const tooltipBody = document.importNode(
+      document.getElementById('tooltip').content,
+      true
+    );
+    tooltipBody.querySelector('p').textContent = this.text;
+    tooltipElement.append(tooltipBody);
+    // tooltipElement.textContent = this.text;
     tooltipElement.addEventListener('click', this.closeTooltip);
     this.element = tooltipElement;
   }
@@ -73,11 +79,14 @@ class ProjectItem {
     if (this.hasActiveTooltip) {
       return;
     }
-    const projectElement = document.getElementById(this.id);
-    // console.log(projectElement.dataset);
-    const tooltip = new Tooltip(() => {
-      this.hasActiveTooltip = false;
-    }, projectElement.dataset.extraInfo);
+    const text = document.getElementById(this.id).dataset.extraInfo;
+    const tooltip = new Tooltip(
+      () => {
+        this.hasActiveTooltip = false;
+      },
+      text,
+      this.id
+    );
     tooltip.attach();
     this.hasActiveTooltip = true;
   }
@@ -147,6 +156,13 @@ class App {
     finishedProjectsList.setSwitchHandlerFunction(
       activeProjectsList.addProject.bind(activeProjectsList)
     );
+
+    document.getElementById('start-analytics-btn').onclick = () => {
+      const analyticScript = document.createElement('script');
+      analyticScript.src = 'src/analytics.js';
+      analyticScript.defer = true;
+      document.head.append(analyticScript);
+    };
   }
 }
 
