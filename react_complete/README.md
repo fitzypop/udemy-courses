@@ -29,7 +29,7 @@ Udemy Course can be found [here][2].
 - [ ] 21. Deploying React Apps
 - [ ] 22. A (Pretty Deep Dive) Introduction to Next.js
 - [ ] 23. Optional: React Summary & Core Feature Walkthrough
-- [ ] 24. Course Roundup 
+- [ ] 24. Course Roundup
 
 <!-- TODO: add legacy sections later -->
 
