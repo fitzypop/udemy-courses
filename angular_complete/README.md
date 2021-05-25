@@ -6,7 +6,7 @@ Udemy Course can be found [here][2].
 
 ## Sections
 
-- [ ] 1. Getting Started
+- [x] 1. Getting Started
 - [ ] 2. The Basics
 - [ ] 3. __Project__ - The Basics
 - [ ] 4. Debugging
