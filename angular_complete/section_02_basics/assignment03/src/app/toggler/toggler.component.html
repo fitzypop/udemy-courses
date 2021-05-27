@@ -1,0 +1,13 @@
+<div class="toggler">
+  <button class="btn btn-primary" (click)="onButtonClick()">
+    Display Details
+  </button>
+  <p *ngIf="displayText">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia quia rem
+    maiores accusantium aperiam reprehenderit. Facere magnam aliquam voluptatum!
+    Rerum.
+  </p>
+  <div class="container log" *ngFor="let item of btnLog; let index = index">
+    <p [ngStyle]="getStyles(index)">Index: {{ index }} {{ item }}</p>
+  </div>
+</div>
