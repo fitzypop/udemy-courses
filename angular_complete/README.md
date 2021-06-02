@@ -9,7 +9,7 @@ Udemy Course can be found [here][2].
 - [x] 1. Getting Started
 - [x] 2. The Basics
 - [x] 3. __Project__ - The Basics
-- [ ] 4. Debugging
+- [x] 4. Debugging
 - [ ] 5. Components & Databinding Deep Dive
 - [ ] 6. __Project__ - Components & Databinding
 - [ ] 7. Directives Deep Dive
