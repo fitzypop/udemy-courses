@@ -157,12 +157,17 @@ class App {
       activeProjectsList.addProject.bind(activeProjectsList)
     );
 
-    document.getElementById('start-analytics-btn').onclick = () => {
-      const analyticScript = document.createElement('script');
-      analyticScript.src = 'src/analytics.js';
-      analyticScript.defer = true;
-      document.head.append(analyticScript);
+    const timerId = setTimeout(this.startAnalytics, 3000);
+    document.getElementById('stop-analytics-btn').onclick = () => {
+      clearTimeout(timerId);
     };
+  }
+
+  static startAnalytics() {
+    const analyticScript = document.createElement('script');
+    analyticScript.src = 'src/analytics.js';
+    analyticScript.defer = true;
+    document.head.append(analyticScript);
   }
 }
 
