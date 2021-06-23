@@ -37,10 +37,10 @@ Udemy Course can be found [here][2].
 - [ ] 29. Deploying JavaScript Code
 - [ ] 30. Performance & Optimizations
 - [ ] 31. Introduction to Testing
-- [ ] 32. Programming Paradigms
-- [ ] 33. Data Structures & Algorithms Introduction
-- [ ] 34. TypeScript Introduction
-- [ ] 35. Web Components
+- [ ] 32. **Bonus**: Programming Paradigms
+- [ ] 33. **Bonus**: Data Structures & Algorithms Introduction
+- [ ] 34. **Bonus**: TypeScript Introduction
+- [ ] 35. **Bonus**: Web Components
 - [ ] 36. Roundup & Next Steps
 
 [1]: https://www.udemy.com/user/maximilian-schwarzmuller/
