@@ -22,7 +22,7 @@ Udemy Course can be found [here][2].
 - [x] 14. Working with Events
 - [x] 15. Advanced Function Concepts
 - [x] 16. More on Numbers & Strings
-- [ ] 17. Async JavaScript: Promises & Callbacks
+- [x] 17. Async JavaScript: Promises & Callbacks
 - [ ] 18. Working with Http Requests
 - [ ] 19. Working with JavaScript Libraries
 - [ ] 20. Modular JavaScript (Working with Modules)
