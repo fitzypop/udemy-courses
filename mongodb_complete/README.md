@@ -6,7 +6,7 @@ Udemy Course can be found [here][2].
 
 ## Sections
 
-- [ ] 1. Introduction
+- [x] 1. Introduction
 - [ ] 2. Understanding the Basics & CRUD Operations
 - [ ] 3. Schemas & Relations: How to Structure Documents
 - [ ] 4. Exploring The Shell & The Server
