@@ -1,4 +1,4 @@
-# JavaScript, The Complete Guide 2021 Udemy Course
+# MongoDB, The Complete Developer's Guide 2021
 
 Instructor: [Maximilian Schwarzmüller][1].
 
